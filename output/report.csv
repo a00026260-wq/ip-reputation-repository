@@ -1,0 +1,9 @@
+ip,score,country,whitelisted,risk
+203.0.113.55,95,US,False,HIGH
+198.51.100.23,88,GB,False,HIGH
+203.0.113.90,76,DE,False,HIGH
+203.0.113.77,61,NL,False,MEDIUM
+198.51.100.77,43,FR,False,MEDIUM
+192.0.2.44,20,IE,False,LOW
+203.0.113.12,5,US,False,LOW
+198.51.100.18,0,US,True,LOW

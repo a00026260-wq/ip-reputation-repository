@@ -1,0 +1,58 @@
+{
+  "203.0.113.55": {
+    "abuseConfidenceScore": 95,
+    "countryCode": "US",
+    "isWhitelisted": false,
+    "totalReports": 42,
+    "usageType": "Data Center/Web Hosting/Transit"
+  },
+  "198.51.100.23": {
+    "abuseConfidenceScore": 88,
+    "countryCode": "GB",
+    "isWhitelisted": false,
+    "totalReports": 31,
+    "usageType": "Data Center/Web Hosting/Transit"
+  },
+  "203.0.113.90": {
+    "abuseConfidenceScore": 76,
+    "countryCode": "DE",
+    "isWhitelisted": false,
+    "totalReports": 19,
+    "usageType": "Data Center/Web Hosting/Transit"
+  },
+  "203.0.113.77": {
+    "abuseConfidenceScore": 61,
+    "countryCode": "NL",
+    "isWhitelisted": false,
+    "totalReports": 12,
+    "usageType": "Commercial"
+  },
+  "198.51.100.77": {
+    "abuseConfidenceScore": 43,
+    "countryCode": "FR",
+    "isWhitelisted": false,
+    "totalReports": 8,
+    "usageType": "ISP"
+  },
+  "192.0.2.44": {
+    "abuseConfidenceScore": 20,
+    "countryCode": "IE",
+    "isWhitelisted": false,
+    "totalReports": 3,
+    "usageType": "ISP"
+  },
+  "203.0.113.12": {
+    "abuseConfidenceScore": 5,
+    "countryCode": "US",
+    "isWhitelisted": false,
+    "totalReports": 1,
+    "usageType": "Commercial"
+  },
+  "198.51.100.18": {
+    "abuseConfidenceScore": 0,
+    "countryCode": "US",
+    "isWhitelisted": true,
+    "totalReports": 0,
+    "usageType": "Content Delivery Network"
+  }
+}

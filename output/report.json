@@ -1,0 +1,61 @@
+{
+  "results": [
+    {
+      "ip": "203.0.113.55",
+      "score": 95,
+      "country": "US",
+      "whitelisted": false,
+      "risk": "HIGH"
+    },
+    {
+      "ip": "198.51.100.23",
+      "score": 88,
+      "country": "GB",
+      "whitelisted": false,
+      "risk": "HIGH"
+    },
+    {
+      "ip": "203.0.113.90",
+      "score": 76,
+      "country": "DE",
+      "whitelisted": false,
+      "risk": "HIGH"
+    },
+    {
+      "ip": "203.0.113.77",
+      "score": 61,
+      "country": "NL",
+      "whitelisted": false,
+      "risk": "MEDIUM"
+    },
+    {
+      "ip": "198.51.100.77",
+      "score": 43,
+      "country": "FR",
+      "whitelisted": false,
+      "risk": "MEDIUM"
+    },
+    {
+      "ip": "192.0.2.44",
+      "score": 20,
+      "country": "IE",
+      "whitelisted": false,
+      "risk": "LOW"
+    },
+    {
+      "ip": "203.0.113.12",
+      "score": 5,
+      "country": "US",
+      "whitelisted": false,
+      "risk": "LOW"
+    },
+    {
+      "ip": "198.51.100.18",
+      "score": 0,
+      "country": "US",
+      "whitelisted": true,
+      "risk": "LOW"
+    }
+  ],
+  "invalid_entries": []
+}
