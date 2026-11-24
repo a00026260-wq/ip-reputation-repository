@@ -34,13 +34,6 @@ Structure of my Folder:
   -Go to abuseipdb.com
   -Create an account and click create key
   -Give it name, for me I named it "uni-project"
-  -Once created, set the key as an environmental variable in powershell with $env and setx commands
-  -WARNING: Do not commit the api key in code, as it is unsafe to do so beacsue other people can gain easy access to it
-
- Setting the API keys:
-  -Go to abuseipdb.com
-  -Create an account and click create key
-  -Give it name, for me I named it "uni-project"
   -Once created, set the key as an environmental variable in               PowerShell with $env and setx commands 
   -WARNING: Do not commit the API key in code, as it is unsafe to do so because other people can gain easy access to it
 
