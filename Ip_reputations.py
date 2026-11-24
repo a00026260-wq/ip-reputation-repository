@@ -50,7 +50,7 @@ def validate_and_dedupe(raw_ips):
     valid, invalid, seen = [], [], set()
     for entry in raw_ips:
         try:
-            ip = str(ipaddress.ip_address(entry))   # normalises the format too
+            ip = str(ipaddress.ip_address(entry))   # normalises the format
         except ValueError:
             invalid.append(entry)
             continue
