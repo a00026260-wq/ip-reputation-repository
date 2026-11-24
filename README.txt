@@ -45,13 +45,24 @@ Structure of my Folder:
   -WARNING: Do not commit the API key in code, as it is unsafe to do so because other people can gain easy access to it
 
 Running the IP Investigation:
- -Add your imports(csv,requests,ipaddress)
- -Set your constants
- -Create code for your inputs and configurations
- -Request and check the API key you create
- -Analyse the IP's to find if they're unique or invalid, their location and whether their safe(whitelisted)
- -Save a report to csv and json
- -Print the value's given to the code, where its saved and the API key provided
+ 1.Add your imports:
+   -Import csv(Save report and formating the output), json(Hold and print information into the print out), 
+   ipaddress(Used to create/poke/manipulate IPv4 and IPv6 addresses and networks.), os(allows the program to be portable
+   acroos differnet platforms) and requests(Helps when gettting information from the HTTP library)
+ 2.Set your constants:
+   -API_URL
+   -DEFAULT_THRESHOLD  #Note: These act as a fallback for the threshold as well as printing an erro message should it not work
+   -RISk_ORDER
+ 3.Create code for your inputs and configurations:
+   -Load your thresholds, including parametres for success and failure's that occur
+   -Load your IP's from the supplied file
+   -Validate each IP
+ 4.Request and check the API key you create:
+   -Set out configurations for success and failure of the API key requested from other platforms
+ 5.Analyse the IP's to find if they're unique or invalid, their location and whether their safe(whitelisted)
+ 6.Save a report to csv and json
+ 7.Print the value's given to the code, where its saved and the API key provided:
+  -Your main() text
 
 Config.json:
  1. What each value means:
