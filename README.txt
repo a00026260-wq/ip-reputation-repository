@@ -39,15 +39,15 @@ Structure of my Folder:
 
 Running the IP Investigation:
  1.Add your imports:
-   -Import csv(Save report and formating the output), json(Hold and print information into the print out), 
-   ipaddress(Used to create/poke/manipulate IPv4 and IPv6 addresses and networks.), os(allows the program to be portable
-   acroos differnet platforms) and requests(Helps when gettting information from the HTTP library)
+   -Import csv(Save report and formatting the output), json(Hold and print information into the print out), 
+   ipaddress(Used to create/poke/manipulate IPv4 and addresses.), os(allows the program to be portable
+   across different platforms and creating a folder to save the outputs) and requests(Helps when gettting information from files in your code)
  2.Set your constants:
    -API_URL
-   -DEFAULT_THRESHOLD  #Note: These act as a fallback for the threshold as well as printing an erro message should it not work
+   -DEFAULT_THRESHOLD  #Note: These act as a fallback for the threshold as well as printing an error message should it not work
    -RISk_ORDER
  3.Create code for your inputs and configurations:
-   -Load your thresholds, including parametres for success and failure's that occur
+   -Load your thresholds, including parameters for success and failure's that occur
    -Load your IP's from the supplied file
    -Validate each IP
  4.Request and check the API key you create:
@@ -85,7 +85,7 @@ Config.json:
 Classifying Risk:
  -If there's no data in the Ip, the risk is UNKNOWN
  -If the IP is whitelisted, the IP will be LOW, no matter the score
- -If the IP is greater than than the higher threshold limit, its shown as HIGH
+ -If the IP is greater than the higher threshold limit, its shown as HIGH
  -Finally, if a IP is at or above the medium threshold, then its score is MEDIUM
  else its just LOW
 
